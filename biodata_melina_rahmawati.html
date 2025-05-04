@@ -4,13 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIODATA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #f4f4f4;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center; /* Horizontal center */
+            align-items: center;     /* Vertical center */
+        }
+        .biodata {
+            background-color: #160202;
+            padding: 70px;
+            border-radius: 8px;
+            width: 400px;
+            box-shadow: 0 0 10px rgba(109, 3, 3, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .item {
+            margin-bottom: 40px;
+        }
+        .label {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Biodata</h1>
-    <P>Nama: Melina Rahmawati</P>
-    <p>Nim: TI20230029</p>
-    <p>Prodi: Teknik Informatika</p>
-    <p>Alamat: Darmaji</p>
-    <p>Cita-cita: Ketemu Haechan</p>
+    <div class="biodata">
+        <h1>Biodata</h1>
+        <p><span class="label">Nama:</span> Melina Rahmawati</p>
+        <p><span class="label">NIM:</span> TI20230029</p>
+        <p><span class="label">Prodi:</span> Teknik Informatika</p>
+        <p><span class="label">Alamat:</span> Darmaji</p>
+        <p><span class="label">Cita-cita:</span> Ketemu Haechan</p>
+    </div>
 </body>
 </html>
